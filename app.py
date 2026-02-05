@@ -29,8 +29,8 @@ def get_jwt_token_sync(region):
         "BR": "https://jwt-token-api-by-ajay.vercel.app/token?uid=4422013059&password=9A14867BBA0091781F5BBAC54DDC945B7C3B317B5C35E01AA62BC67DD910F22F",
         "US": "https://jwt-token-api-by-ajay.vercel.app/token?uid=4422013059&password=9A14867BBA0091781F5BBAC54DDC945B7C3B317B5C35E01AA62BC67DD910F22F",
         "SAC": "https://jwt-token-api-by-ajay.vercel.app/token?uid=4480393807&password=Sulav_W6HLO_BY_SULAV_GAMING_FYMLQ",
-        "NA":"https://jwt-token-api-by-ajay-azure.vercel.app/token?uid=4435593361&password=Sulav_AQBJD_BY_SULAV_GAMING_D6DJP",
-        "default": "https://jwt-token-api-by-ajay-azure.vercel.app/token?uid=4435593361&password=Sulav_AQBJD_BY_SULAV_GAMING_D6DJP"
+        "NA":"https://jwt-token-api-by-ajay-azure.vercel.app/token?uid=4419374675&password=Sulav_D25OZ_BY_SULAV_GAMING_BHPDX",
+        "default": "https://jwt-token-api-by-ajay-azure.vercel.app/token?uid=4419374675&password=Sulav_D25OZ_BY_SULAV_GAMING_BHPDX"
     }    
     url = endpoints.get(region, endpoints["default"])
     with jwt_lock:
